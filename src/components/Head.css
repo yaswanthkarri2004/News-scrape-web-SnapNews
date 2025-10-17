@@ -1,0 +1,47 @@
+.news-grid>*{
+    padding: 20px;
+    justify-content: space-around;
+   margin: 20px;
+}
+
+
+.category-select-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-select {
+  appearance: none; /* remove default OS style */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+   border-bottom: 1px solid #ccc;
+  background: #fff url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23333'/%3E%3C/svg%3E") no-repeat right 10px center;
+  background-size: 10px 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.category-select:hover {
+  border-color: #1a73e8;
+}
+
+.category-select:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+}
+
+/* Animate the options (works in Chrome/Edge/Firefox) */
+.category-select:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+  transform: scaleY(1.05);
+}
