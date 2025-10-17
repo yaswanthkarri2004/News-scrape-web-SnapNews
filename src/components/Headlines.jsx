@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import NewsCard from "../components/NewsCard";
+import NewsCard from "./newscard";
 import "./Head.css"
 
 function Headlines() {
