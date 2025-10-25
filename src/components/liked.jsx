@@ -7,7 +7,7 @@ export default function Liked(){
     useEffect(()=>{
         const saved = JSON.parse(localStorage.getItem("savedNews")) || [];
         setLikedArticles(saved);
-    });
+    },[]);
 
     return (
         <div>
