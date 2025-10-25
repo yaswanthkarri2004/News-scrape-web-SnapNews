@@ -13,6 +13,15 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-top: 1px solid #eee;
+  background-color: #fafafa;
+}
+
 .news-image {
   width: 250px;
   height: 200px;
@@ -50,6 +59,21 @@
 
 .news-link:hover {
   text-decoration: underline;
+}
+
+.heart-icon {
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  color: #888;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2);
+}
+
+.liked {
+  color: red;
 }
 
 /* Responsive for small screens */
